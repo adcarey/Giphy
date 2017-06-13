@@ -1,0 +1,19 @@
+.gify, .image{
+	height: 150px;
+	width: 150px;
+}
+
+.gify{
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 18px;
+}
+
+button{
+	margin-right: 15px;
+	margin-bottom: 8px;
+}
+.btn-primary{
+	background-color: purple;
+	background-image: none;
+}

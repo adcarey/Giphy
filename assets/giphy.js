@@ -38,6 +38,7 @@ function buttonTouch(){
 		console.log(response);
 		 for (var i = 0; i < response.data.length; i++){
 		 	$(".gifs").append("<div class= 'gify'>Rating: "+ response.data[i].rating.toUpperCase()+ "<br>" + "<img data-name= " + response.data[i].images.original.url + " src= " + response.data[i].images.original_still.url + " class='image'></div>");
+		 	$(".clicks").html("<h2>Click Gif to Play!</h2>");
 	};
 });
 };
